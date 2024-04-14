@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuchisake Onna</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<header>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="#">Momotarō</a></li>
+            <li><a href="#">Aka Manto</a></li>
+            <li><a href="#">Teke Teke</a></li>
+            <li><a href="#">Okiku Doll</a></li>
+        </ul>
+    </nav>
+
+    <div class="input-box">
+        <input type="text" placeholder="Email">
+    </div>
+
+    <div class="input-box2">
+        <input type="password" placeholder="Password" id="password">
+        <img src="css/images/eye-close.png" id="eyeicon">
+    </div>
+
+<script>
+    let eyeicon = document.getElementById("eyeicon");
+    let password = document.getElementById("password");
+
+    eyeicon.onclick = function(){
+        if(password.type == "password"){
+            password.type = "text";
+            eyeicon.src = "css/images/eyeopen2.png"
+        }else{
+            password.type = "password";
+            eyeicon.src = "css/images/eye-close.png"
+        }
+    }
+</script>
+
+    <a class="cta" href="#"><button>LOGIN</button></a>
+</header>
+
+<main>
+    <div class="fbox">
+        <div class="fkeyword">
+            <ul class="keyword">
+                <li>Dates back to 1979 in a Gifu Prefecture newspaper</li>
+                <li>Kuchisake Onna is an example of a Yokai (ghost)</li>
+                <li>Yokai means mysterious apparitions</li>
+                <li>Yokai's could be demonds, monsters, shapeshifters and trickster spirits</li>
+                <img src="css/images/Kuchisake-onna_conversation_diagram.svg.png" alt="">
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Kuchisake Onna</h1>
+            <p>Kuchisake Onna (Slit-Mouthed Woman) is a malevolent figure in Japanese urban legends and folklore. Described as the malicious spirit of a woman, she partially covers her face with a mask or other item and carries a pair of scissors, a knife, or some other sharp object. She is most often described as having long, straight, white hands, black hair, pale skin, and otherwise being considered beautiful (except for her scar). She has been described as a contemporary Yokai</p> 
+            <p>She asks potential victims if they think she is beautiful. If they respond with "no", she will either kill them with her long medical scissors on the spot or wait until nightfall and murder them in their sleep. If they say "yes", she will reveal that the corners of her mouth are slit from ear to ear, and she will then repeat her question. If the individual responds with "no", she will kill them with her weapon, and if they say "yes" hesitantly she will cut the corners of their mouth in such a way that resembles her own disfigurement.</p>
+            <p>The Kuchisake Onna legend has been described as dating back to the 17th to 19th centuries, during Japan's Edo period. The story experienced a resurgence of awareness in 1970s Japan, when several newspapers and magazines reported on the legend, and rumors surrounding it spread throughout the country, leading to young children being accompanied by groups of adults while walking home from school</p>
+            <p>According to legend, Kuchisake Onna was a woman who was mutilated during her life, with her mouth being slit from ear to ear. In some versions of the story, Kuchisake-Onna was the adulterous wife or a mistress of a samurai during her life. She grew lonely because the samurai was always away from home fighting, and began having affairs with men around the town. When the samurai heard of this, he was outraged. As punishment for her infidelity, her husband sliced the corners of her mouth from ear to ear. In other versions of the tale, her mouth was mutilated during a medical or dental procedure or by a woman who was jealous of her beauty.</p>
+            <p>Methods that can be used to survive an encounter with Kuchisake Onna include answering her question by describing her appearance as "average"</p>
+        </div>
+
+        <div class="picture">
+            <img class="image1" src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*uY3K2lXlWzzQMH4p.png" alt="">
+        </div>
+    </div>
+</main>
+
+<footer>
+    <h2>This is just the bottom</h2>
+</footer>
+</html>
