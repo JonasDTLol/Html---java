@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* Navbar, li, a and button styling */
 ul, li, a, button{
     font-size: 16px;
     text-decoration: none;
@@ -32,6 +34,8 @@ header {
     color: rgb(201, 14, 14);
 }
 
+
+/* Login button */
 button {
     padding: 9px 25px;
     background-color: rgb(87, 127, 138);
@@ -45,6 +49,8 @@ button:hover {
     background-color: rgba(34, 93, 107, 0.8);
 }
 
+
+/* Email input */
 .input-box input {
     border-radius: 15px;
     width: 100%;
@@ -56,6 +62,7 @@ button:hover {
     left: 100px;
 }
 
+/* Password input */
 .input-box2 input {
     border-radius: 15px;
     width: 100%;
@@ -70,7 +77,7 @@ button:hover {
     top: 17px;
     left: 30px;
 }
-
+/* password eye image open/closed */
 .input-box2 img {
     width: 30px;
     cursor: pointer;
@@ -81,8 +88,7 @@ button:hover {
 
 
 
-
-
+/* Main content */
 .fbox{
     display: flex;
     justify-content: space-around;
@@ -90,8 +96,7 @@ button:hover {
     padding: 40px 0px;
 }
 
-
-
+/* Keywords with li */
 .fkeyword{
     width: 300px;
 }
@@ -101,7 +106,7 @@ button:hover {
 }
 
 
-
+/* Main Information */
 .main-content{
     width: 900px;
     height: 800px;
@@ -114,14 +119,14 @@ p {
     padding: 10px;
 }
 
-
+/* Image for the page */
 .image1 {
     height: 700px;
     object-fit: cover;
     margin: 40px 0px;
 }
 
-
+/* Footer */
 footer, h2 {
     background-color: rgb(87, 100, 96);
     color: rgb(87, 100, 96);
